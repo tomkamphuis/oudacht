@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Oud Acht</title>
+	<base href="~/" />
+
+	<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+</head>
+<body>
+	@RenderBody()
+	<div id="backstretch" style="left: 0px; top: 0px; position: fixed; overflow: hidden; z-index: -999999; margin: 0px; padding: 0px; height: 1279px; width: 1519px;">
+		<img src="/images/OudAcht.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; z-index: -999999; width: 1519px; height: 1279px; left: 0px; top: -259.999px;">
+	</div>
+
+	@RenderSection("scripts", required: false)
+</body>
+</html>
